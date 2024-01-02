@@ -6,7 +6,7 @@ import Copyright from "./components/Copyright";
 
 import "./App.css";
 
-const API_URL = "http://www.omdbapi.com?apikey=98e3fb1f";
+const API_URL = "https://www.omdbapi.com?apikey=98e3fb1f";
 
 const App = () => {
   const [searchPeli, setSearchPeli] = useState("");
